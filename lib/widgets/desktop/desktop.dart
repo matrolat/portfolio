@@ -45,7 +45,7 @@ class _DesktopState extends State<Desktop> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/windows_bg.webp'),
+                  image: AssetImage('assets/images/windows_bg.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),

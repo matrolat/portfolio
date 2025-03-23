@@ -67,7 +67,7 @@ class MyComputer extends StatelessWidget {
                 itemBuilder: (context, index) {
                   final folder = folders[index];
                   return GestureDetector(
-                    onDoubleTap: folder.onTap,
+                    onTap: folder.onTap,
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
